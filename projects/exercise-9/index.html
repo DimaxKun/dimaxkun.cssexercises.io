@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Exercise 9
+  </title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.parent-box {
+  background-color: rgb(255, 172, 172);
+  padding: 20px;
+}
+
+
+.child-box {
+  background-color: rgb(152, 255, 152);
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+
+.grandchild-box {
+  background-color: rgb(146, 146, 255);
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Exercise 9</h1>
+  <div class="parent-box">
+    <p>Parent</p>
+    <div class="child-box">
+      <p>Child 1</p>
+      <div class="grandchild-box">
+        <p>Grandchild 1</p>
+      </div>
+    </div>
+    <div class="child-box">
+      <p>Child 2</p>
+      <div class="grandchild-box">
+        <p>Grandchild 2</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

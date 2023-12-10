@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Exercise 3</title>
+        <style>
+        .box {
+            width: 400px;
+            height: 350px;
+            background-color: aquamarine;
+            float: left;
+            margin: 0 10px;}
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;}
+            
+        </style>                                                                                                            
+    </head>
+    <body>
+        <h1>Exercise 3</h1>
+        <div class="clearfix">
+        <div class="box"><b>Container 1</b></div>
+        <div class="box"><b>Container 2</b></div>
+        <div class="box"><b>Container 3</b></div>
+        </div>
+    </body>
+</html>

@@ -1,14 +1,17 @@
+h1 {
+  margin-bottom: 0%;
+}
+
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0;
-    flex-direction: column; /* Set the flex direction to column */
+    flex-direction: column;
   }
 
-  /* Optional: Add some basic styling for better appearance */
   button {
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 10px;
     font-size: 20px;
   }

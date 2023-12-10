@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 4</title>
+        <style>
+            * {
+                background-color: peachpuff;
+            }
+
+            body {
+            font-family: sans-serif;
+            }
+
+            /* Desktop */
+            @media (min-width: 768px) {
+                .container {
+                width: 80%;
+                margin: 0 auto;
+                }
+
+                .header {
+                text-align: center;
+                }
+
+                .header h1 {
+                font-size: 32px;
+                }
+
+                .main {
+                display: flex;
+                }
+
+                .main-image {
+                width: 50%;
+                }
+
+                .main-content {
+                width: 50%;
+                padding: 20px;
+                }
+
+                .main-content h2 {
+                font-size: 24px;
+                }
+
+                .main-content p {
+                font-size: 16px;
+                }
+            }
+
+            /* Mobile */
+            @media (max-width: 767px) {
+                .container {
+                width: 100%;
+                }
+
+                .header {
+                text-align: left;
+                }
+
+                .header h1 {
+                font-size: 24px;
+                }
+
+                .main {
+                display: block;
+                }
+
+                .main-image {
+                width: 50%;
+                margin-bottom: 20px;
+                }
+
+                .main-content {
+                padding: 0;
+                }
+
+                .main-content h2 {
+                font-size: 20px;
+                }
+
+                .main-content p {
+                font-size: 14px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Exercise 4</h1>
+            </header>
+
+            <main class="main">
+                <div class="main-image">
+                <img src="https://picsum.photos/200/300" alt="Image">
+                </div>
+
+                <div class="main-content">
+                    <h2>Fun Images</h2>
+                    <p>The image changes every time your refresh the page</p>
+                    <p>try it out in desktop and mobile!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
+
+        
+
