@@ -6,6 +6,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(228, 252, 252);
   }
 
   button {
@@ -14,4 +15,5 @@ body {
     padding-right: 40px;
     margin: 10px;
     font-size: 20px;
+    cursor: pointer;
   }
