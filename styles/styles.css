@@ -16,4 +16,6 @@ body {
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
+    width: 400px;
+    text-align: left;
   }
