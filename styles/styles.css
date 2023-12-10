@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column; /* Set the flex direction to column */
+  }
+
+  /* Optional: Add some basic styling for better appearance */
+  button {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+  }
